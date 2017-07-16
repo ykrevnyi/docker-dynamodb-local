@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  dynamodb:
+    image: "ykrevnyi/docker-dynamodb-local"
+    command: -dbPath "/opt/dynamodb-storage" -sharedb
+    ports:
+      - "8000:8000"
+    volumes:
+      - "/opt/dynamodb-storage"
