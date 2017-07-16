@@ -11,7 +11,7 @@ docker run \
   -p 8000:8000
   -v "/opt/dynamodb-storage" ykrevnyi/docker-dynamodb-local \
   -dbPath "/opt/dynamodb-storage" \
-  -sharedb
+  -sharedDb
 ```
 
 Looking for `docker-compose` version? Here you go:
@@ -20,7 +20,7 @@ Looking for `docker-compose` version? Here you go:
 services:
   dynamodb:
     image: "ykrevnyi/docker-dynamodb-local"
-    command: -dbPath "/opt/dynamodb-storage" -sharedb
+    command: -dbPath "/opt/dynamodb-storage" -sharedDb
     ports:
       - "8000:8000"
     volumes:
