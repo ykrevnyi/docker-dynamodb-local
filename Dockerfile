@@ -2,8 +2,6 @@
 FROM openjdk:8-jre
 MAINTAINER Yurii Krevnyi <ykrevnyi@gmail.com>
 
-RUN apk update && apk add ca-certificates wget && update-ca-certificates
-
 # Get the package from Amazon
 RUN mkdir -p /opt/dynamodb && \
     cd /opt/dynamodb && \
