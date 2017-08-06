@@ -2,13 +2,16 @@
 # Docker Dynamodb
 ✨ Dockerized Dynamodb for Local Development ✨
 
+<p align="center">
+  <img src="https://github.com/ykrevnyi/docker-dynamodb-local/blob/master/assets/gui.jpg" alt="docker dynamodb local gui"/>
+</p>
 
 ## Quickstart
 
 ```bash
 # Start database, keep data between runs, publish port to host on :8000
 docker run \
-  -p 8000:8000
+  -p 8000:8000 \
   -v "/opt/dynamodb-storage" ykrevnyi/docker-dynamodb-local \
   -dbPath "/opt/dynamodb-storage" \
   -sharedDb
