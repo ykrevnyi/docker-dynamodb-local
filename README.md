@@ -5,6 +5,7 @@
 
 #### ✨ Dockerized Dynamodb for Local Development ✨
 
+[![GitHub release](https://img.shields.io/github/release/ykrevnyi/docker-dynamodb-local.svg)](https://github.com/ykrevnyi/docker-dynamodb-local/releases)
 [![Docker Build Statu](https://img.shields.io/docker/build/ykrevnyi/docker-dynamodb-local.svg)](https://hub.docker.com/r/ykrevnyi/docker-dynamodb-local/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/10a60741a6fe40ba9a126aed44a67b8f)](https://www.codacy.com/app/ykrevnyi/docker-dynamodb-local?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ykrevnyi/docker-dynamodb-local&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/ykrevnyi/docker-dynamodb-local/blob/master/LICENSE)
