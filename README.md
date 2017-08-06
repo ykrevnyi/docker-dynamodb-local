@@ -12,7 +12,6 @@
 </div>
 
 <p align="center">
-  <h2 align="center"></h2>
   <img width="65%" src="https://github.com/ykrevnyi/docker-dynamodb-local/blob/master/assets/gui.jpg" alt="docker dynamodb local gui"/>
 </p>
 
