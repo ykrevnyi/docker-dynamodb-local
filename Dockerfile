@@ -1,5 +1,5 @@
 
-FROM openjdk:8-jre-alpine
+FROM openjdk:8-jre
 MAINTAINER Yurii Krevnyi <ykrevnyi@gmail.com>
 
 RUN apk update && apk add ca-certificates wget && update-ca-certificates

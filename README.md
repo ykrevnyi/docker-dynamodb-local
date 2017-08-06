@@ -1,8 +1,18 @@
 
+<div align="center">
+
 # Docker Dynamodb
-✨ Dockerized Dynamodb for Local Development ✨
+
+#### ✨ Dockerized Dynamodb for Local Development ✨
+
+[![Docker Build Statu](https://img.shields.io/docker/build/ykrevnyi/docker-dynamodb-local.svg)](https://hub.docker.com/r/ykrevnyi/docker-dynamodb-local/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/10a60741a6fe40ba9a126aed44a67b8f)](https://www.codacy.com/app/ykrevnyi/docker-dynamodb-local?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ykrevnyi/docker-dynamodb-local&amp;utm_campaign=Badge_Grade)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/ykrevnyi/docker-dynamodb-local/blob/master/LICENSE)
+
+</div>
 
 <p align="center">
+  <h2 align="center"></h2>
   <img src="https://github.com/ykrevnyi/docker-dynamodb-local/blob/master/assets/gui.jpg" alt="docker dynamodb local gui"/>
 </p>
 
@@ -10,6 +20,8 @@
 
 ```bash
 # Start database, keep data between runs, publish port to host on :8000
+# Connect to Dynamodb db on http://localhost:8000/
+# Open admin panel on http://localhost:8000/shell
 docker run \
   -p 8000:8000 \
   -v "/opt/dynamodb-storage" ykrevnyi/docker-dynamodb-local \
@@ -20,6 +32,8 @@ docker run \
 Looking for `docker-compose` version? Here you go:
 
 ```bash
+# Connect to Dynamodb db on http://localhost:8000/
+# Open admin panel on http://localhost:8000/shell
 services:
   dynamodb:
     image: "ykrevnyi/docker-dynamodb-local"
@@ -29,6 +43,8 @@ services:
     volumes:
       - "/opt/dynamodb-storage"
 ```
+
+Then Navigate to `http://localhost:8000/shell` for admin web ui.
 
 
 ## Howto
