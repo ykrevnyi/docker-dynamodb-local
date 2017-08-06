@@ -152,8 +152,8 @@ docker run ykrevnyi/docker-dynamodb-local -inMemory -delayTransientStatuses -opt
 
 
 ## Need Help?
-Please submit an issue on GitHub and provide information about your setup.
+Please [submit an issue](https://github.com/ykrevnyi/docker-dynamodb-local/issues) on GitHub and provide information about your setup.
 
 
 ## License
-This project is licensed under the terms of the MIT license. See the LICENSE file.
+This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/ykrevnyi/docker-dynamodb-local/blob/master/LICENSE) file.
